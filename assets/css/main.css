@@ -1656,3 +1656,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+.icon-logo {
+   font-size: 20px;
+   color: #123456;
+   background: pink;
+   padding: 12px 15px;
+   border-radius: 50%;
+   font-family: FontAwesome;
+   }
