@@ -34,8 +34,18 @@
 								<li><a href="#work">My Work</a></li>
 								<li><a href="Romir Varshney.pdf">Resume</a></li>
 								<li><a href="#contact">Music</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+					<!--			<div class = "cursor"></div>
+								<li><a href="#elements">Elements</a></li>
 							</ul>
+							<script>
+							const cursor = document.querySelector('.cursor');
+							document.addEventListener('mousemove', (e) => {
+								cursor.style.left = e.pageX + 'px';
+								cursor.style.top = e.pageX + 'px'
+								cursor.style.bottom = e.pageX + 'px'
+								cursor.style.right = e.pageX + 'px'
+							})
+							</script> -->
 						</nav>
 					</header>
 

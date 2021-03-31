@@ -1664,3 +1664,19 @@ input, select, textarea {
    border-radius: 50%;
    font-family: FontAwesome;
    }
+/*	 .cursor
+	 {
+		 position: fixed;
+		 width: 20px;
+		 height: 20px;
+		 border-radius: 50%;
+		 background: #fff;
+		 transition: 0.1s;
+		 transform: translate (-50%, -50%);
+		 pointer-events: none;
+		 mix-blend-mode: difference
+	 }
+	 ul li:hover ~ .cursor
+	 {
+		 transform: scale(6);
+	 } */
