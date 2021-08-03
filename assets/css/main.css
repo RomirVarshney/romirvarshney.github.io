@@ -1190,7 +1190,7 @@ input, select, textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-align-items: center;
+		-moz-align-items: ;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
