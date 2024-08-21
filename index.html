@@ -1,7 +1,6 @@
 @@ -1,129 +0,0 @@
 <!DOCTYPE html>
 <!--
-
 -->
 <html>
 	<head>
@@ -23,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Hi! I'm <span style="color: dodgerblue"> Romir Varshney! </span></h1>
-								<p>2nd-Year Computer Science Student at the <span style="color: gold">Georgia Institute of Technology. </span></p>
+								<p>3rd-Year at the <span style = "color: gold"> Georgia Institute of Technology </span> </p>
 							</div>
 						</div>
 						<nav>
@@ -32,7 +31,18 @@
 								<li><a href="#myWork" title = "Click here to learn about what I've done!">My Work</a></li>
 								<li><a href="RomirVarshneyResume.pdf" title = "Click here to see my résumé!">Résumé</a></li>
 								<li><a href="#music" title = "Click here to see and listen to some of my music catalog!">Music</a></li>
-
+					<!--			<div class = "cursor"></div>
+								<li><a href="#elements">Elements</a></li>
+							</ul>
+							<script>
+							const cursor = document.querySelector('.cursor');
+							document.addEventListener('mousemove', (e) => {
+								cursor.style.left = e.pageX + 'px';
+								cursor.style.top = e.pageX + 'px'
+								cursor.style.bottom = e.pageX + 'px'
+								cursor.style.right = e.pageX + 'px'
+							})
+							</script> -->
 						</nav>
 					</header>
 
@@ -43,7 +53,7 @@
 							<article id="aboutMe">
 								<h2 class="major" title "About Me Section, which provides information about myself and what I enjoy!">About Me</h2>
 								<span class="image main" title = "Photoshoot from an abandoned building in downtown Jacksonville."><img src="images/abandonedBuilding.jpg" alt="" /></span>
-								<p>I am a self-driven and motivated 19-year-old Indian-American senior currently attending the Georgia Institute of Technology, enrolled in the College of Computing in Atlanta, Georgia.
+								<p>I am a self-driven and motivated 21-year-old Indian-American currently attending the Georgia Institute of Technology.
 								Through my studies and experiences, I have become proficient in numerous programming languages while also gaining experience in both Front-End and Back-End development. I've created and worked multiple <a href="#myWork" style="color:lightpink" title = "Click here to see my projects!">projects</a>. showcasing both in various programming languages.</p>
 								<p>In my free time, I actively participate in the cultural world around me, volunteering for various different projects and organizations, and even performing on stage in front of large crowds. I love tinkering with hardware, listening to <a href = "#music" title = ""> (and creating!) </a> music, and playing all types of sports (Go Jags!).
 								My ultimate goal is to work at a company that I feel utilizes my skillset in the best way possible, while also actively working to improve society and its foundations, both short-term and long-term.</p>
@@ -62,60 +72,75 @@
 								</ul>
 							</article>
 							<article id="music">
-								<h2 style = "color:forestgreen" class="major" title = "Music Section, which includes some of the music that I have created and published!">Music</h2>
-							<span class="image main" title = "You can find my instrumental album Clandestine on numerous streaming platforms, including Spotify and Soundcloud!"><img src="images/clandestine.png" alt="" /></span>
-							<h3 class="major" title = "Here are some songs that I have made!">Example Songs</h3>
-							<p></p>
-							<h4 style = "color:tan" class="major" title = "A song that switches up between a chill mood and energetic trap. (On Clandestine)">Forsaken</h4>
-							<audio src="song1.mp3" controls /></audio>
-							<p></p>
-							<h4 style = "color:powderblue" class="major" title = "A chill and relaxing lofi vibe. (On Clandestine)">drowned out</h4>
-							<audio src="Lofi3.mp3" controls /></audio>
-							<p></p>
-							<h4 style = "color:yellow" class="major" title = "A hip-hop remix of the popular SpongeBob SquarePants theme song.">SpongeBob Trap Remix</h4>
-							<audio src="Spongebob Trap.mp3" controls /></audio>
-							<p></p>
-							<h4 style = "color:mediumorchid" class="major" title = "A tense and dark hip-hop track">Song 4 (Unnamed)</h4>
-							<p></p>
-							<audio src="Tense.mp3" controls /></audio>
-							<p></p>
-							<p></p>
-								<h3 class="major" title = "Not full songs, but sample loops of small parts, such as the backbeat or drums.">Samples</h2>
-							<h4 style = "color:tomato" class="major" title = "A lofi-sounding piano loop.">Sample 1</h4>
-							<audio src="Hillside (117 BPM - C Minor).wav" controls /></audio>
+							    <h2 style="color:forestgreen" class="major" title="Music Section, which includes some of the music that I have created and published!">Music</h2>
+							    <span class="image main" title="You can find my instrumental album Clandestine on numerous streaming platforms, including Spotify and SoundCloud!">
+							        <img src="images/clandestine.png" alt="Clandestine Album Cover" />
+							    </span>
+							    <h3 class="major" title="Here are some songs that I have made!">Example Songs</h3>
+							    <p></p>
+							    <h4 style="color:tan" class="major" title="A song that switches up between a chill mood and energetic trap. (On Clandestine)">Forsaken</h4>
+							    <audio src="song1.mp3" controls></audio>
+							    <p></p>
+							    <h4 style="color:powderblue" class="major" title="A chill and relaxing lofi vibe. (On Clandestine)">drowned out</h4>
+							    <audio src="Lofi3.mp3" controls></audio>
+							    <p></p>
+							    <h4 style="color:yellow" class="major" title="A hip-hop remix of the popular SpongeBob SquarePants theme song.">SpongeBob Trap Remix</h4>
+							    <audio src="Spongebob Trap.mp3" controls></audio>
+							    <p></p>
+							    <h4 style="color:mediumorchid" class="major" title="A tense and dark hip-hop track">Song 4 (Unnamed)</h4>
+							    <audio src="Tense.mp3" controls></audio>
+							    <p></p>
+							    <h3 class="major" title="Not full songs, but sample loops of small parts, such as the backbeat or drums.">Samples</h3>
+							    <h4 style="color:tomato" class="major" title="A lofi-sounding piano loop.">Sample 1</h4>
+							    <audio src="Hillside (117 BPM - C Minor).wav" controls></audio>
+							    <p></p>
+							    <h3 class="major" title="Check out some of my mixes on SoundCloud!">Mixes</h3>
+							    <div>
+							        <h4 style="color:lightseagreen" class="major" title="GT Ramblin' Raas 2023-2024 Mix">GT Ramblin' Raas 2023-2024 Mix</h4>
+							        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://soundcloud.com/romirvarshney/gtramblinraas2023-2024mix?si=1c2e8d63119645ae8bb1116a93616ba4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></iframe>
+							    </div>
+							    <p></p>
+							    <div>
+							        <h4 style="color:lightcoral" class="major" title="UF GatorRAAS 2022-2023 Mix">UF GatorRAAS 2022-2023 Mix</h4>
+							        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://soundcloud.com/romirvarshney/uf-gatoraas-2022-2023-mix?si=d23c30df013e4964a6c4e511181da120&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></iframe>
+							    </div>
 							</article>
 
-						<!-- Work -->
-							<article id="myWork">
-								<h2 style = "color:lightpink" class="major" title = "My Work Section, which includes some of the projects and experiences that I have worked on and with!">My Work</h2>
-								<br></br>
-								<h4 style = "color:#7ac142" class="major" title = "Data Science Summer Internship for NLP Logix">NLP Logix Summer Internship</h4>
-								<span class="image main" title = "Internship Team Picture"><img src="images/NLPGroup.jpg" alt="" /></span>
-								<p>Obtained a data science internship from NLP Logix, a company dedicated to employing machine learning, data modeling, and other specialties in order to automate data-driven business processes utilizing artificial intelligence for clients, after being recommended by my guidance counselor and undergoing an interview process. In it, I gained experience in navigating Tableau to visualize and analyze data and observe trends, and in using Python to learn the fundamentals of machine learning, by building predictive models. Utilized an NFL Play-by-Play data set to create the data visualizations and predictive models, and even <a href = "https://www.linkedin.com/feed/update/urn:li:activity:6825780480869220352/" title = "The company's LinkedIn page post concerning the final presentation for the internship."> presented our findings </a> to the analytics team of the <span style = "color: #D7A22A" title = "Go Jags!"> Jacksonville Jaguars. </span> <a href="https://www.nlplogix.com/" style = "color:#7ac142" title = "Click here to access the official NLP Logix website."> Click here to see more about NLP Logix.</a></p>
-					<!--			<span class="image main" title = "The logo for NLP Logix"><img src="images/nlp logo.jpg" alt="" /></span> -->
 
-								<h4 style = "color:steelblue" class="major" title = "Audio Synthesizer Plugin">Music Synthesizer - Web-Based Audio Plugin</h4>
-								<p>Devised a dynamic multimedia synthesizer using HTML and Python capable of generating audio in parallel with numerous processing effects that shape the character of the sound. Involved designing and constructing a logical interface of user controls, integrating the Tone.js library and HTML event handlers to manipulate audio directly in the webpage with capabilities of rendering multiple notes based on the user’s keyboard as a piano.<br></br></p>
+							<!-- Work -->
+	<article id="myWork">
+	    <h2 style="color:lightpink" class="major" title="My Work Section, which includes some of the projects and experiences that I have worked on and with!">My Work</h2>
+	    <br></br>
 
-								<h4 style = "color:lime" class="major" title = "Song Mashup Generator">Song Mashup Generator - Song Mashup Optimizer</h4>
-								<p>Programmed an application with Python & Spotify Web API to extract track features and produce optimal mashup combinations based on client-provided inputs such as custom playlists or official Spotify collections. Constructed a custom-logic algorithm that displayed compatible song pairings based on input metadata such as BPM, song key, and time-signature with the ability to adjust parameter weights in ranking song matches.<br></br></p>
+	    <h4 style="color:#5bb5dc" class="major" title="Florida Blue – GenAI Software Engineering Intern (May 2024 – August 2024)">Florida Blue – GenAI Software Engineering Intern</h4>
+	    <h5>May 2024 – August 2024</h5>
+			<p>At Florida Blue, I had the opportunity to work on cutting-edge GenAI projects that enveloped the concepts of machine learning in healthcare. My primary focus was on enhancing the monitoring and evaluation of AI models deployed within the organization. I designed and implemented a comprehensive status page in Python that provided real-time monitoring for MLflow project models. This system was integral in tracking the performance of models like Llama3-70B, Llama2-7B, Mistral, and Llamaguard.</p>
+      <p>To ensure that these models were easily accessible and their statuses transparent, I developed a dynamic web interface using Gradio. This interface allowed visualization of uptime trends and statuses of various TGI (Tracking and Experimentation Interfaces) endpoints, which were crucial for the Retrieval Augmented Generation (RAG) pillar APIs.</p>
+      <p>Another achievement was implementing a custom PyFunc using EvalLog to track experiment durations. This logging capability provided comprehensive visibility across all code branches, capturing over 50,000 lines of data, which was pivotal in optimizing our data management workflows. Additionally, I developed a rehydrate method within MLflow, which streamlined the restoration of model states and experimental data, significantly enhancing the efficiency of our model recovery and deployment processes. This experience deepened my understanding of the complexities involved in managing large-scale AI deployments and the importance of robust monitoring systems.</p>
 
-								<h4 style = "color:#92a2b2" class="major" title = "IB Dossier Project (Made with Java)">Bank Account/Currency Conversion Program</h4>
-								<span class="image main" title = "IB Dossier Program"><img src="images/ibDossier.PNG" alt="" /></span>
-								<p>Utilized Java and GUI from the IDE Eclipse to create a <a href="https://github.com/RomirVarshney/IB-Dossier" title="IB Dossier"> project </a> for my IB Computer Science A class in my junior year. My GUI Program utilizes a variety of complexity components, including different classes/screens, file i/o, etc. to produce a program that is capable of storing, sorting, and deleting users, withdrawing and depositing money, viewing users, all while also changing the program currency into four different ones, changing the values in the program and database. Includes comments for the code that organizes and explains the code's purpose throughout the program. Took over 3 months to fully plan, design, program, test, and evaluate final product. Click <a href="https://www.ibo.org/about-the-ib/mission/#:~:text=The%20International%20Baccalaureate%C2%AE%20aims,through%20intercultural%20understanding%20and%20respect." title = "The Official International Baccalaureate Website.">here</a> to learn more about the International Baccalaureate mission statement <br></br></p>
+	    <h4 style="color:#dc8989" class="major" title="GuideWell – Software Engineering Intern (Part-Time) (August 2024 – Present)">GuideWell – Software Engineering Intern (Part-Time)</h4>
+	    <h5>August 2024 – PRESENT</h5>
+			<p>In my current role at GuideWell, I am focused on improving the deployment frameworks that support critical infrastructure applications within the GPT domain, ensuring that they are scalable and capable of production deployment without rollbacks</p>
+      <p>Another contribution I've made is integrating advanced data indexing techniques on OpenShift. This integration allows for PAAS indexing, ensuring seamless data integration with AWS Elastic Search.</p>
 
+	    <h4 style="color:#7ac142" class="major" title="NLP Logix – Data Science and Machine Learning Intern (June 2021 – August 2021)">NLP Logix – Data Science and Machine Learning Intern</h4>
+	    <h5>June 2021 – August 2021</h5>
+			<p>During my internship at NLP Logix, I delved into the world of data science and machine learning, applying these skills to real-world challenges in sports analytics. My primary project involved analyzing the NFL Play-by-Play dataset, which contained over 30,000 data columns. I used Tableau to create data visualizations that highlighted trends between pre-play properties and post-play results. These visualizations were not only informative but also interactive, allowing stakeholders to filter the data and uncover insights that were previously hidden.</p>
+      <p>Building on this analysis, I developed machine learning algorithms using Python and the Random Forest Classifier method. By carefully tuning parameters and splitting the data into training and test sets, I was able to create a predictive model with an ROC AUC score of 0.8, indicating that our model could predict play types (run or pass) with approximately 80% accuracy. This model was presented to the executive analytics teams at both NLP Logix and the NFL’s Jacksonville Jaguars. My presentation included discussions on feature importance, confusion matrices, and how our model could be used to anticipate play calls in future games. This experience was a significant milestone in my journey as a data scientist, combining technical rigor with real-world application.</p>
 
-								<h4 style = "color:gold" class="major" title = "Graphics Program (Made with Java/QBASIC)">Graphics Project</h4>
-								<span class="image main" title = "Graphics Project"><img src="images/graphicsProject.PNG" alt="" /></span>
-								<p><a href="https://github.com/RomirVarshney/GraphicsProject" title="Graphics Project">Program</a> of a 2-D city consisting of 5 buildings, each with a multitude of windows, floors, and colors to it, giving the city a vibrant feel. Picture contains a sun, clouds, a bird, and a road as well as the 5 buildings. Image pulled from www.easy2dart.com, and was initially created in my freshman year through QBASIC. I then recreated the same picture in my junior year in Java. The Java program contains over 700 lines of code utilizing line and block commands, color, and circular and elliptical code in objects like the sun and the bird. Comments made throughout the program to help organize the code and make it easier to read and follow through. These projects were each completed in about a month, in class periods of 90 minutes, which occurred every other school day. Click <a href="Graphics Project.exe" title="Graphics Project.exe will be downloaded if clicked."> here </a> to access the QB64 file from my freshman year.<br></br></p>
-								<h4 style = "color:orange" class="major" title = "Music Production Using FL Studio (See Music page for more)">Music</h4>
-								<span class="image main"><img src="images/fl.PNG" title = "An example of the FL Studio software workspace for one of my songs." alt="" /></span>
-								<p>I have also produced, mixed, and mastered original instrumental songs in a variety of genres through the use of FL Studio. <a href="#music" title="Music">Click here to be directed to the music page.</a><br /></p>
-								<!--https://open.spotify.com/artist/6WWQdL0gezR09NNrmyvvlG?si=GMF6hcbeTMKOHo7ZIdBaUA-->
-			<!--					<audio src="song1.mp3" controls /></audio> -->
-								<h3 class="major" title = "Projects that I am either in the process of doing or planning to do in high school.">Future and Continuing Projects</h3>
-								<h4 style = "color:blanchedalmond" class="major" title = "Tutoring other high schools for their AP Computer Science A exam.">Tutoring in Computer Science</h4>
-								<p>Selected specifically by my Computer Science teacher to teach and tutor students of Andrew Jackson High School in preparation for their AP Computer Science A exam, due to their teacher being out for an extended period of time. Includes teaching programming concepts such as arrays and loops, and helping guide through practice programs and tests. Classes took place during my scheduled programming class, on the last class of every week.</p>
+	    <h4 style="color:gold" class="major" title="FIRST Robotics – Team Resistance (August 2019 – April 2021)">FIRST Robotics – Team Resistance</h4>
+	    <h5>August 2019 – April 2021</h5>
+			<p>My involvement with FIRST Robotics was a transformative experience, where I honed my skills in both software development and teamwork. As a member of Team Resistance, I leveraged Java to develop software for an industrial-sized robot capable of executing complex field-based tasks. This wasn’t just about writing code, it was about understanding the mechanics of the robot, the dynamics of the competition, and how to optimize performance under pressure.</p>
+      <p>Our hard work paid off when we won the 2021 South Florida Regional Quality Award after competing against over 50 regional teams and 3,800 teams nationally. This achievement was the result of countless hours spent programming components, testing different configurations, and collaborating extensively with our executive coaches. The experience taught me the value of perseverance, collaboration, and the importance of iterative development in engineering projects.</p>
+
+	    <h4 style="color:forestgreen" class="major" title="Music Synthesizer – Interactive Web-Based Audio Plugins (June 2023 – Present)">Music Synthesizer – Interactive Web-Based Audio Plugins</h4>
+	    <h5>June 2023 – May 2024</h5>
+	    <p>In this project, I designed a dynamic multimedia synthesizer that merges my passion for music with my technical skills. The synthesizer, developed using HTML and Python, generates audio with various processing effects that shape the character of the sound. I created an intuitive user interface using React and Angular, integrating the Tone.js library to allow users to manipulate audio directly on the webpage. This project has been my personal playground for experimenting with multimedia technologies, and it continues to evolve as I add new features and capabilities.</p>
+
+	    <h4 style="color:forestgreen" class="major" title="Song Mashup Generator – Song Match Optimizer (May 2022 – Present)">Song Mashup Generator – Song Match Optimizer</h4>
+	    <h5>May 2022 – Present</h5>
+			<p>This ongoing project has allowed me to embrace my love for both music and algorithmic problem-solving. I programmed an application using Python and the Spotify Web API to extract track features and generate optimal mashup combinations. The custom-logic heuristic algorithm I developed considers various parameters such as BPM, song key, and time signature, allowing users to find compatible song pairings. The ability to adjust parameter significance in song match rankings adds a layer of personalization, making the tool versatile for different users' preferences. This project not only showcases my programming skills but also my ability to create tools that enhance user experiences.</p>
+	</article>
 
 
 
@@ -124,7 +149,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 
-						<p class="copyright">2020-2023, Made by <span style="color: dodgerblue" title = "Made by..."> Romir Varshney </span> through: <a href="https://html5up.net" style = "color:#e7746f" title="Find the website template that I used here!">HTML5 UP</a></p>
+						<p class="copyright">2020-2024, Made by <span style="color: dodgerblue" title = "Made by..."> Romir Varshney </span> through: <a href="https://html5up.net" style = "color:#e7746f" title="Find the website template that I used here!">HTML5 UP</a></p>
 
 					</footer>
 
